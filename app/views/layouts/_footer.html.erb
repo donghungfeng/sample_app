@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= t(".author_html") %>
+  </small>
+  <nav>
+    <ul>
+      <li>
+        <%= t(".language") %>
+        <%= link_to "En", locale:"en" %>|
+        <%= link_to "Vi", locale:"vi" %>
+      </li>
+      <li><%= link_to t(".link_about"),   about_path %></li>
+      <li><%= link_to t(".link_contact"), contact_path %></li>
+      <li><%= link_to t(".link_new_html")%></li>
+    </ul>
+  </nav>
+</footer>
