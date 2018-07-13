@@ -1,16 +1,12 @@
 <% provide(:title, t(".head_title")) %>
-<p>
-  <%= content_tag :p do %>
-    <%= link_to 'Chuyen sang English', locale: :en %>
-  <% end unless current_page?(locale: :en) %>
+<div class="center jumbotron">
+  <h1><%= t(".content")%></h1>
 
-  <%= content_tag :p do %>
-    <%= link_to 'Switch to VietNamese', locale: :vi %>
-  <% end unless current_page?(locale: :vi) %>
-</p>
-<h1><%= t ".title" %></h1>
-<h1><%= t ".page_title" %></h1>
-<p>
-  <%= t ".content_html" %>
-</p>
+  <h2>
+    <%t= (".content_html")%>
+  </h2>
 
+  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>

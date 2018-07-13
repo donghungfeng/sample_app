@@ -2,13 +2,37 @@ vi:
   layouts:
     application:
       head_full_title: "Hướng dẫn lập trình Ruby on Rails"
+    header:
+      link_logo: "Ứng dụng mẫu"
+      link_home: "Trang chủ"
+      link_help: "Trợ giúp"
+      link_login: "Đăng nhập"
+    footer:
+      author_html: "Khóa học <a href='http://www.railstutorial.org/''>Ruby on Rails Tutorial</a> được viết bởi <a href='http://www.michaelhartl.com/''>Michael Hartl</a>"
+      language: "Ngôn ngữ"
+      link_about: "Giới thiệu"
+      link_contact: "Liên hệ"
+      link_new_html: "<a href='http://news.railstutorial.org/''>Tin tức</a>"
   static_pages:
     home:
       head_title: "Trang chủ"
-      title: "Ưng dụng mẫu"
-      page_title: "Đây là trang chủ"
-      convert: "Chuyển sang tiếng Anh"
-      content_html: "Đây là trang web <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a> Hướng dẫn lập trình Rails"
+      content: "Chào mừng đến ứng dụng mẫu"
+      content_html: "Đây là trang chủ ứng dụng mẫu của khóa học <a href='http://www.railstutorial.org/''>Ruby on Rails Tutorial</a>"
+      signup: "Đăng ký ngay!"
     help:
+      head_title: "Trợ giúp"
+      content: "Trợ giúp"
+      content_html: "Để được giúp đỡ về Ruby on Rails Tutorial liên hệ tại <a href='http://www.railstutorial.org/help'>Rails Tutorial help section</a>. Để được giúp đỡ về ứng dụng mẫu này, liên hệ tại <a href='http://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em> book</a>."
     about:
+      head_title: "Giới thiệu"
+      content: "Giới thiệu"
+      content_html: "<a href='http://www.railstutorial.org/'><em>Ruby on Rails Tutorial</em></a> là một <a href='http://www.railstutorial.org/book'>cuốn sách</a> và <a href='http://screencasts.railstutorial.org/'>screencast series</a> để dạy lập trình web với  <a href='http://rubyonrails.org/'>Ruby on Rails</a>. Đây là một trang mẫu."
     contact:
+      head_title: "Giới thiệu"
+      content: "Giới thiệu"
+      content_html: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu này <a href='http://www.railstutorial.org/contact'>Tại đây</a>."
+  users:
+    new:
+      head_title: "Đăng ký"
+      content_title: "Đăng ký"
+      content: "Đây là trang đăng ký cho người dùng mới"
