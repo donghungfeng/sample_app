@@ -1,7 +1,16 @@
-<% provide(:title, "Home") %>
-<h1>Sample App</h1>
+<% provide(:title, t(".head_title")) %>
 <p>
-  This is the home page for the
-  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
+  <%= content_tag :p do %>
+    <%= link_to 'Chuyen sang English', locale: :en %>
+  <% end unless current_page?(locale: :en) %>
+
+  <%= content_tag :p do %>
+    <%= link_to 'Switch to VietNamese', locale: :vi %>
+  <% end unless current_page?(locale: :vi) %>
 </p>
+<h1><%= t ".title" %></h1>
+<h1><%= t ".page_title" %></h1>
+<p>
+  <%= t ".content_html" %>
+</p>
+
