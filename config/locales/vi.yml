@@ -1,0 +1,14 @@
+vi:
+  layouts:
+    application:
+      head_full_title: "Hướng dẫn lập trình Ruby on Rails"
+  static_pages:
+    home:
+      head_title: "Trang chủ"
+      title: "Ưng dụng mẫu"
+      page_title: "Đây là trang chủ"
+      convert: "Chuyển sang tiếng Anh"
+      content_html: "Đây là trang web <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a> Hướng dẫn lập trình Rails"
+    help:
+    about:
+    contact:
