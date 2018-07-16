@@ -28,11 +28,42 @@ vi:
       content: "Giới thiệu"
       content_html: "<a href='http://www.railstutorial.org/'><em>Ruby on Rails Tutorial</em></a> là một <a href='http://www.railstutorial.org/book'>cuốn sách</a> và <a href='http://screencasts.railstutorial.org/'>screencast series</a> để dạy lập trình web với  <a href='http://rubyonrails.org/'>Ruby on Rails</a>. Đây là một trang mẫu."
     contact:
-      head_title: "Giới thiệu"
-      content: "Giới thiệu"
+      head_title: "Liên hệ"
+      content: "Liên hệ"
       content_html: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu này <a href='http://www.railstutorial.org/contact'>Tại đây</a>."
   users:
     new:
       head_title: "Đăng ký"
       content_title: "Đăng ký"
       content: "Đây là trang đăng ký cho người dùng mới"
+      name: "tên"
+      email: "email"
+      password: "mật khẩu"
+      confirm: "xác nhật mật khẩu"
+      btn_create: "Tạo tài khoản"
+    create:
+      welcome: "Chào mừng đến với ứng dụng mẫu"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không thể để trống"
+            email:
+              blank: "không thể để trống"
+              invalid: "không hợp lệ"
+            password:
+              blank: "không thể để trống"
+              too_short: "quá ngắn"
+            password_confirmation:
+              confirmation: "không khớp mật khẩu đã chọn"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    _error_messages:
+      content: "Biểu mẫu này chứa"
