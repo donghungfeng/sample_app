@@ -41,3 +41,17 @@ en:
       password: "password"
       confirm: "password_confirmation"
       btn_create: "Create a acount"
+    create:
+      welcome: "Welcome to Sample App"
+      error: "Could not find users"
+  sessions:
+    new:
+      head_title: "Log in"
+      content_title: "Log in"
+      btn_login: "log in"
+      signup_now: "Sign up now!"
+      new_user: "User new?"
+      email: "Email"
+      password: "Password"
+    create:
+      error: "Valid user/email"
