@@ -41,6 +41,7 @@ en:
       password: "password"
       confirm: "password_confirmation"
       btn_create: "Create a acount"
+      remember_me: "Remember me in this computer"
     create:
       welcome: "Welcome to Sample App"
       error: "Could not find users"
