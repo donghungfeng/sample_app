@@ -58,6 +58,7 @@ vi:
       new_user: "Chưa có tài khoản!"
       email: "Email"
       password: "Mật khẩu"
+      remember_me: "Ghi nhớ tài khoản trên máy tính"
     create:
       error: "Email hoặc mật khẩu không khớp"
   activerecord:
