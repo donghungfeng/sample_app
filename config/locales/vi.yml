@@ -7,6 +7,11 @@ vi:
       link_home: "Trang chủ"
       link_help: "Trợ giúp"
       link_login: "Đăng nhập"
+      link_profile: "Hồ sơ"
+      link_settings: "Cài đặt"
+      link_logout: "Đăng xuất"
+      link_users: "Người dùng"
+      account: "Tài khoản"
     footer:
       author_html: "Khóa học <a href='http://www.railstutorial.org/''>Ruby on Rails Tutorial</a> được viết bởi <a href='http://www.michaelhartl.com/''>Michael Hartl</a>"
       language: "Ngôn ngữ"
@@ -43,6 +48,18 @@ vi:
       btn_create: "Tạo tài khoản"
     create:
       welcome: "Chào mừng đến với ứng dụng mẫu"
+      error: "Không tìm thấy user"
+  sessions:
+    new:
+      head_title: "Đăng nhập"
+      content_title: "Đăng nhập"
+      btn_login: "Đăng nhập"
+      signup_now: "Đăng ký ngay!"
+      new_user: "Chưa có tài khoản!"
+      email: "Email"
+      password: "Mật khẩu"
+    create:
+      error: "Email hoặc mật khẩu không khớp"
   activerecord:
     errors:
       models:
@@ -64,6 +81,9 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      session:
+        email: "Email"
+        password: "Mật khẩu"
   shared:
     _error_messages:
       content: "Biểu mẫu này chứa"
