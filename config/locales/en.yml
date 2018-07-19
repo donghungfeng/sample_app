@@ -45,6 +45,25 @@ en:
     create:
       welcome: "Welcome to Sample App"
       error: "Could not find users"
+    edit:
+      head_title: "Edit profile"
+      content_title: "Edit profile"
+      btn_save: "Save change"
+      change: "Change"
+    update:
+      update_suc: "Updated user"
+    destroy:
+      destroy_suc: "Destroyed user"
+    logged_in_user:
+      log_in: "Please log in"
+    index:
+      head_title: "All users"
+      content_title: "All users"
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    find_user:
+      .not_exist: "Not exits user"
   sessions:
     new:
       head_title: "Log in"
@@ -56,3 +75,11 @@ en:
       password: "Password"
     create:
       error: "Valid user/email"
+  shared:
+    _error_messages:
+      content: "This contain"
+      error: "error"
+  will_paginate:
+    previous_label: "Previous label"
+    next_label: "Next label"
+    page_gap: "&hellip;"
