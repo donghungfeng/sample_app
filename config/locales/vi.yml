@@ -49,6 +49,25 @@ vi:
     create:
       welcome: "Chào mừng đến với ứng dụng mẫu"
       error: "Không tìm thấy user"
+    edit:
+      head_title: "Sửa thông tin"
+      content_title: "Sửa thông tin"
+      btn_save: "Lưu thay đổi"
+      change: "Thay đổi"
+    update:
+      update_suc: "Thông tin đã thay đổi"
+    destroy:
+      destroy_suc: "Đã xóa tài khoản"
+    logged_in_user:
+      log_in: "Đăng nhập để tiếp tục"
+    index:
+      head_title: "Danh sách tài khoản"
+      content_title: "Danh sách tài khoản"
+    user:
+      delete: "Xóa"
+      sure: "Bạn có chắc muốn xóa?"
+    find_user:
+      .not_exist: "Tài khoản không tồn tại"
   sessions:
     new:
       head_title: "Đăng nhập"
@@ -86,5 +105,10 @@ vi:
         email: "Email"
         password: "Mật khẩu"
   shared:
-    _error_messages:
+    error_messages:
       content: "Biểu mẫu này chứa"
+      error: "Lỗi"
+  will_paginate:
+    previous_label: "Trang trước"
+    next_label: "Trang tiếp theo"
+    page_gap: ""
